@@ -1,0 +1,192 @@
+*{
+    /* border: 1px solid red; */
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: white
+    font-family: "Roboto";
+}
+
+ul {
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+nav {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    height: 60px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+}
+
+.nav-item {
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(15, 132, 79);
+}
+
+.background {
+    z-index: -1;
+    width: 100%;
+    margin-top:-73px;
+    position: absolute;
+}
+
+.showfeats {
+    z-index: 1;
+    height: 4em;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    font-size: 10em;
+    text-shadow: -1px 1px 2px black, 
+                 1px 1px 0 black, 
+                 1px -1px 0 black, 
+                -1px -1px 0 black;
+}
+
+.shows-header {
+    background-color: lightgray;
+    border:solid thin black;
+}
+
+.april{
+    margin-left: 40px ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.wrap-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.wrapper {
+    display: column;
+}
+
+.box {
+    max-width: 800px;
+    height: auto;
+    display: flex;
+    
+}
+
+.grid-image {
+    max-width: 200px;
+    height: auto;
+    padding: 20px;
+}
+
+.grid-text {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.read-more {
+    height: 60px;
+    width: 110px;
+    background-color: rgb(255, 204, 0);
+    margin: 10px;
+    margin-top: 13%;
+    color: white;
+    font-size: 18px;
+    margin-left: 70px ;
+}
+
+hr {
+    color: lightgray;
+}
+
+.bottom {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: space-evenly;
+}
+
+.map {
+    width: 250px;
+    padding: 2%;
+    padding-left: 100px;
+}
+
+.mapimg {
+    width: 250px;
+}
+
+.footinfo {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.footshows{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em
+}
+
+.foothead {
+    font-size: 2em;
+}
+
+.tiny {
+    margin: 3px;
+}
